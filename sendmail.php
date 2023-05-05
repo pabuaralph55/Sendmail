@@ -36,6 +36,7 @@ if ($result->num_rows > 0) {
     $subject = $row['subject'];
     $messageBody = $row['message_body'];
 
+    $messageBody = "Dear sir/ma'am:\n\n" . $messageBody;
     // Create a new PHPMailer instance
     $mailer = new PHPMailer();
 
