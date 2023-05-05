@@ -46,10 +46,10 @@ if ($result->num_rows > 0) {
     $mailer->isSMTP();
     $mailer->Host = 'smtp.gmail.com';
     $mailer->SMTPAuth = true;
-    $mailer->Username = 'pabua.ralph55@gmail.com'; // Your Gmail email address
-    $mailer->Password = 'csqkgeskrafehekl'; // Your Gmail account password
-    $mailer->SMTPSecure = 'tls'; // Enable TLS encryption
-    $mailer->Port = 587; // TCP port to connect to
+    $mailer->Username = 'pabua.ralph55@gmail.com'; 
+    $mailer->Password = 'csqkgeskrafehekl'; 
+    $mailer->SMTPSecure = 'tls'; 
+    $mailer->Port = 587; 
 
     // Set email details
     $mailer->setFrom($fromAddress);
